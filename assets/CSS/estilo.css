@@ -11,6 +11,7 @@ h1 {
 h2 {
     font-size: 1.3em;
     color: #50554b;
+    width: 60%;
 }
 
 
@@ -24,7 +25,8 @@ p {
 li {
     color: #635554;
     font-size: 0.8em;
-    font-weight: bold
+    font-weight: bold;
+    width: 60%;
 }
 
 .guia {
@@ -32,7 +34,7 @@ li {
     position: fixed;
     left: 73%;
     top: 6.15%;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 a {
