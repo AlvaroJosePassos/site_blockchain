@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <title>Javascript</title>
+
+</head>
+
+<body>
+    <div class="guia">
+            <hr>
+            <li><a href="#Oque">O que é?</a></li>
+            <hr>
+            <li><a href="#PorqueImportante">Porque o blockchain é importante?</a></li>
+            <hr>
+            <li><a href="#Componentes">Componentes do blockchain</a></li>
+            <hr>
+            <li><a href="#Funcionamento">Funcionamento do blockchain</a></li>
+            <hr>
+            <li><a href="#Recursos">Recursos do blockchain</a></li>
+            <hr>
+            <li><a href="#Tipos">Tipos de rede Blockchain</a></li>
+            <hr>
+            <li><a href="#Beneficios">Benefícios da blockchain</a></li>
+            <hr>
+            <li><a href="#Setores">O Blockchain em diferentes setores</a></li>
+            <hr>
+            <li><a href="#Evoluiu">Como a blockchain evoluiu</a></li>
+            <hr>
+            <li><a href="#Protocolos">Protocolos da rede blockchain</a></li>
+            <hr>
+            <li><a href="#Extra">Extras</a></li>
+            <hr>
+    </div>
+
+    <h1>Tecnologia Blockchain</h1>
+    <hr>
+    <div id="tudo">
+        <h2 id="Oque">O que é?</h2>
+        <p>Blockchain é basicamente um sistema de banco de dados avançado que armazena dados em
+            "blocos"
+            interligados (daí o nome blockchain). Como os blocos de dados são interligados em cadeia, eles não podem ser
+            modificados, nem excluídos sem que haja consentimento da rede, além de impedir entradas de transações não
+            autorizadas e oferecer transparência e consistência na visualização dos dados.</p>
+
+        <h2 id="PorqueImportante">Por que o blockchain é importante?</h2>
+        <img id="foto_circular" src="assets/images/foto_circular_blockchain.jpeg">
+        <p>
+            Imagine a seguinte situação: na venda de um automóvel, o comprador paga o valor referente
+            ao
+            veículo e depois este é transferida para ele pelo vendedor, porém como o registro da transação de venda é
+            feito
+            de forma independente, não se pode confiar totalmente nas duas partes pois o vendedor pode alegar que não
+            foi
+            pago (mesmo tendo sido) e o comprador pode, ao mesmo tempo alegar ter feito o pagamento (mesmo não o tendo
+            feito).Em situações como essa o sistema Blockchain é fundamental, uma vez que, no exemplo citado acima, é
+            criado
+            um registro para o comprador e um para o vendedor. Com a Blockchain, todas as transações devem ser aprovadas
+            com
+            o consentimento de ambas as partes, e só depois elas são atualizadas em tempo real. Caso haja problemas
+            durante
+            a transação, todo o bloco é afetado. Esse tipo de característica fez com que o Blockchain se tornasse
+            importante
+            ferramenta em diversos setores, principalmente no setor financeiro, como o bitcoin.</p>
+
+        <h2 id="Componentes">Componentes do blockchain</h2>
+        <ul>
+            <li>Ledger distribuído</li>
+            <p class="paragrafo_lista">Banco de dados compartilhado no blockchain com todos os participantes, onde todos
+                podem ver e editar, porém o ledger distribuído estabelece regras que devem ser obedecidas por todas as
+                partes.
+            </p>
+            <li>Contratos inteligentes</li>
+            <p class="paragrafo_lista">Armazenados no blockchain, são contratos que são executados de forma automática,
+                sem a necessidade de supervisão, seguindo algumas normas pré-determinadas.</p>
+            <li>Criptografia de chave pública</li>
+            <p class="paragrafo_lista">serve para identificar cada um dos participantes de uma rede blockchain e é
+                composto de duas chaves: uma pública da rede e uma privada que é exclusiva do membro da rede, essas
+                chaves são usadas em conjunto para destravar os dados de um bloco.
+            </p>
+        </ul>
+
+        <h2 id="Funcionamento">Funcionamento do blockchain</h2>
+        <ul>
+            <li>Registro da transação</li>
+            <p class="paragrafo_lista">Quando uma transação é feita entre duas ou mais partes, ela é registrada em um
+                bloco que contém todos os dados relativos àquela transação, como os envolvidos, quando, onde ou por que
+                ocorreu a transação.
+            </p>
+            <li>Consenso</li>
+            <p class="paragrafo_lista">A transação precisa ter o consentimento de todas ou da maioria dos membros
+                envolvidos para ser validada.
+            </p>
+            <li>Vínculo dos blocos</li>
+            <p class="paragrafo_lista">Obtido o consenso dos membros, os blocos com as transações são "fechados" e
+                recebem uma chave hash, que interliga um bloco a outro da cadeia, assim, caso alguma dessas chaves hash
+                seja alterada, isso afetará todos os demais blocos, informando aos demais membros o erro ocorrido.
+            </p>
+            <li>Compartilhar o ledger</li>
+            <p class="paragrafo_lista">O sistema envia uma cópia do registro mais recente a todos os membros.
+                <img src="assets/images/funcionamento_blockchain.png">
+            </p>
+        </ul>
+
+        <h2 id="Recursos">Recursos do blockchain</h2>
+        <ul>
+            <li>Descentralização</li>
+            <p class="paragrafo_lista">os participantes possuem comunicação transparente
+            </p>
+            <li>Imutabilidade</li>
+            <p class="paragrafo_lista">os registros uma vez inseridos no bloco não podem ser alterados
+            </p>
+            <li>Consenso</li>
+            <p class="paragrafo_lista">todas as transações devem ser consentidas com todos ou com a maioria dos
+                participantes.</p>
+        </ul>
+
+        <h2 id="Tipos">Tipos de rede blockchain</h2>
+        <ul>
+            <li>Públicas</li>
+            <p class="paragrafo_lista">Não precisam de permissão e todos podem participar, permitindo a leitura, edição
+                e
+                validação dos dados registrados.
+            </p>
+            <li>Privadas</li>
+            <p class="paragrafo_lista">São controladas por uma organização que determina regras para participar, bem
+                como direitos que os membros terão na rede. Possuem restrições de acesso.</p>
+            <li>Híbridas</li>
+            <p class="paragrafo_lista">Combinam redes pública e privada, mantendo alguns dados específicos restritos e
+                outros com livre acesso.</p>
+            <li>Consórcio</li>
+            <p class="paragrafo_lista">Grupos de organizadores que possuem interesses em comum se organizam para manter
+                o sistema blockchain e determinar as regras de acesso aos dados.
+            </p>
+        </ul>
+
+        <h2 id="Beneficios">Benefícios da blockchain</h2>
+        <ul>
+            <li>Segurança avançada</li>
+            <p class="paragrafo_lista">Os sistemas de blockchain oferecem o mais alto nível de segurança, com
+                criptografia, consenso e descentralização para tornar a violação de dados quase impossível.
+            </p>
+            <li>Eficiência aprimorada</li>
+            <p class="paragrafo_lista">Com os contratos inteligentes e a transparência, as transações são feitas de modo
+                muito mais eficiente, isto é visível em transações B2B por exemplo.</p>
+            <li>Auditorias mais rápidas</li>
+            <p class="paragrafo_lista">As empresas podem administrar suas transações de modo auditável, esse processo é
+                acelerado quando se tem a transparência e a imutabilidade dos dados em uma rede blockchain que agrupa
+                essas informações de maneira cronológica.</p>
+        </ul>
+
+        <h2 id="Setores">O Blockchain em diferentes setores</h2>
+        <ul>
+            <li>Energia</li>
+            <p class="paragrafo_lista">Empresas de energia fazem parcerias com pessoas que possuem painéis solares para
+                que estas vendam seu
+                excesso
+                de energia solar aos vizinhos através de plataformas de comércio que usam o blockchain para registrar as
+                transações.
+            </p>
+            <li>Financeiro</li>
+            <p class="paragrafo_lista">Principal setor em que é usado, o blockchain integra o principal sistema de
+                gerenciamento de transações
+                financeiras dos sistemas tradicionais da área (como os bancos ou a bolsa de valores).</p>
+            <li>Midia e entreterimento</li>
+            <p class="paragrafo_lista">Empresas de mídia e entretenimento usam o blockchain para administrar os dados de
+                direitos autorais.
+                Assim
+                elas evitam processos por parte dos artistas e promovem a eles segurança e uma justa compensação pela
+                venda
+                ou transferência do conteúdo de direitos autorais.</p>
+            <li>Varejo</li>
+            <p class="paragrafo_lista">Empresas de varejo usam o blockchain para monitorar a movimentação dos produtos
+                desde o fornecedor até o
+                usuário final, garantindo a autenticidade da mercadoria (Ex: A Amazon controla todos os processos de
+                venda
+                permitindo que todas as partes registrem no bloco com uma autorização).
+            </p>
+        </ul>
+
+        <h2 id="Evoluiu">Como a blockchain evoluiu</h2>
+        <p>A tecnologia blockchain foi criada na década de 1970 quando um cientista da computação
+            chamado Ralph Merkle patenteou as árvores de Merkle, que são uma estrutura que armazena dados em blocos
+            usando criptografia. Mais tarde, Stuart Heber e W. Scott Stornetta usaram essas árvores para criação de um
+            sistema no qual carimbos de data e hora não pudessem ser violados em documentos, essa foi a primeira
+            instância da blockchain.</p>
+        <ul>
+            <li>Primeira geração</li>
+            <p class="paragrafo_lista">Em 2008, Satoshi Nakamoto, um indivíduo ou um grupo de indivíduos formulou uma
+                ideia de blockchain bitcoin em que se usavam blocos de 1MB de dados para as transações de bitcoin, sendo
+                que muitos desses recursos permanecem até hoje.
+            </p>
+            <li>Segunda geração</li>
+            <p class="paragrafo_lista">Depois da criação do bitcoin, os desenvolvedores começaram a pensar em outras
+                soluções. Assim a Ethereum incorporou a blockchain nas transações de transferência de ativos, que
+                culminou com a criação dos contratos inteligentes.</p>
+            <li>Terceira geração</li>
+            <p class="paragrafo_lista">Assim que vão surgindo novas necessidades de aplicações da rede blockchain, esta
+                tecnologia vai evoluindo cada vez mais, por isso a terceira geração possui possibilidades ilimitadas na
+                implementação da tecnologia blockchain.</p>
+        </ul>
+
+        <h2 id="Protocolos">Protocolos da rede blockchain</h2>
+        <p>Os protocolos de rede blockchain se referem a plataformas diferentes responsáveis pelo
+            desenvolvimento de aplicações, eis algumas delas:</p>
+        <ul>
+            <li>Hyperledger Fabric</li>
+            <p class="paragrafo_lista">Conjunto de bibliotecas e ferramentas em uma aplicação de código aberto em que as
+                empresas podem criar aplicações de modo rápido. É um framework que oferece gerenciamento de recursos de
+                controle e de identificação exclusiva, que podem ser usados para diversos fins, como controle de
+                finanças.
+            </p>
+            <li>Ethereum</li>
+            <p class="paragrafo_lista">Plataforma de blockchain open source criada para trabalhar com redes de
+                blockchain públicas.</p>
+            <li>Corda</li>
+            <p class="paragrafo_lista">Criado para empresas, a corda é uma plataforma open source que trabalha com
+                transações interoperacionais com privacidade rigorosa, permitindo a transferência de valor de modo
+                direto.</p>
+            <li>Quorum</li>
+            <p class="paragrafo_lista">Derivada da Ethereum, é um protocolo utilizado para redes blockchain privadas
+                onde um só membro controla todos os nós ou uma rede consórcio, onde vários membros possuem controle de
+                partes dela.
+            </p>
+        </ul>
+
+        <h2 id="Extra">Extras:</h2>
+
+        <h2>Diferença entre banco de dados e blockchain</h2>
+
+        <p>Blockchain descentraliza o controle sem comprometer a confiabilidade dos dados, o que não é possível em
+            um BD comum.</p>
+        <p>Empresas envolvidas em uma transação não podem compartilhar seu banco de dados completo, na blockchain
+            cada uma tem uma cópia do registro, onde sua consistência é mantida o tempo todo pela rede.</p>
+        <p>Na blockchain você não pode editar os dados inseridos, ao contrário de um banco de dados.</p>
+    </div>
+</body>
+
+</html>
