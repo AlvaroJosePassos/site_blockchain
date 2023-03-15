@@ -5,12 +5,12 @@ body {
 h1 {
     font-size: 20px;
     text-align: center;
-    color: #2b58de;
+    color: #635554;
 }
 
 h2 {
     font-size: 15px;
-    color: #2b58de;
+    color: #635554;
 }
 
 
@@ -18,11 +18,11 @@ p {
     text-align: justify;
     width: 60%;
     font-size: 10px;
-    color: #2b58de;
+    color: #635554;
 }
 
 li {
-    color: #2b58de;
+    color: #635554;
     font-size: 10px;
     font-weight: bold
 }
@@ -36,7 +36,7 @@ li {
 }
 
 a {
-    color: #d3d3d3;
+    color: #635554;
     text-decoration: none;
    }
    
