@@ -26,7 +26,6 @@ li {
     color: #635554;
     font-size: 0.8em;
     font-weight: bold;
-    width: 60%;
 }
 
 .guia {
@@ -34,7 +33,7 @@ li {
     position: fixed;
     left: 73%;
     top: 6.15%;
-    font-size: 0.9em;
+    font-size: 0.895em;
 }
 
 a {
