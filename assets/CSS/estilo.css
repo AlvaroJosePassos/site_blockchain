@@ -14,7 +14,6 @@ h2 {
     width: 65%;
 }
 
-
 p {
     text-align: justify;
     width: 65%;
@@ -44,3 +43,13 @@ a {
 a:hover {
     color: rgb(0, 119, 255);
 }
+<<<<<<< Updated upstream
+=======
+
+@media (max-width: 768px) {
+    .guia {
+        position: static;
+        margin-top: 20px;
+    }
+}
+>>>>>>> Stashed changes
