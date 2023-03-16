@@ -3,13 +3,13 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     text-align: center;
     color: #50554b;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #50554b;
     width: 65%;
 }
@@ -17,13 +17,13 @@ h2 {
 p {
     text-align: justify;
     width: 65%;
-    font-size: 1em;
+    font-size: 1.3em;
     color: #635554;
 }
 
 li {
     color: #635554;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -32,7 +32,7 @@ li {
     position: fixed;
     left: 71%;
     top: 11%;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 a {
