@@ -1,94 +1,52 @@
-/* estilos gerais */
-
 body {
-    background-color: #cdcdc4;
+  background-color: #cdcdc4;
 }
 
 h1 {
-    font-size: 1.8em;
-    text-align: center;
-    color: #50554b;
+  font-size: 1.8em;
+  text-align: center;
+  color: #50554b;
 }
 
 h2 {
-    font-size: 1.3em;
-    color: #50554b;
-    width: 65%;
+  font-size: 1.3em;
+  color: #50554b;
+  width: 65%;
 }
 
-
 p {
-    text-align: justify;
-    width: 65%;
-    font-size: 0.9em;
-    color: #635554;
+  text-align: justify;
+  width: 65%;
+  font-size: 0.9em;
+  color: #635554;
 }
 
 li {
-    color: #635554;
-    font-size: 0.8em;
-    font-weight: bold;
+  color: #635554;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 .guia {
-    background-color: #cdcdc400;
-    position: fixed;
-    left: 71%;
-    top: 9.9%;
-    font-size: 0.95em;
+  background-color: #cdcdc400;
+  position: fixed;
+  left: 71%;
+  top: 9.9%;
+  font-size: 0.95em;
 }
 
 a {
-    color: #635554;
-    text-decoration: none;
+  color: #635554;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgb(0, 119, 255);
+  color: rgb(0, 119, 255);
 }
 
-/* estilos para telas pequenas */
-
-@media (max-width: 767px) {
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-        width: 85%;
-    }
-
-    p {
-        font-size: 0.8em;
-        width: 85%;
-    }
-
-    .guia {
-        display: none;
-    }
-}
-
-/* estilos para telas médias e grandes */
-
-@media (min-width: 768px) {
-
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.3em;
-        width: 60%;
-    }
-
-    p {
-        font-size: 0.9em;
-        width: 60%;
-    }
-
-    .guia {
-        display: block;
-    }
+@media (max-width: 768px) {
+  .guia {
+    position: static;
+    margin-top: 20px;
+  }
 }
