@@ -43,8 +43,6 @@ a {
 a:hover {
     color: rgb(0, 119, 255);
 }
-<<<<<<< Updated upstream
-=======
 
 @media (max-width: 768px) {
     .guia {
@@ -52,4 +50,4 @@ a:hover {
         margin-top: 20px;
     }
 }
->>>>>>> Stashed changes
+
