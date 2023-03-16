@@ -59,17 +59,20 @@ a:hover {
     h2 {
         font-size: 1.3em;
         color: #50554b;
+        width: 100%;
     }
 
     p {
         text-align: justify;
         font-size: 0.9em;
         color: #635554;
+        width: 100%;
     }
 
     li {
         color: #635554;
         font-size: 0.8em;
         font-weight: bold;
+        width: 100%;
     }
 }
