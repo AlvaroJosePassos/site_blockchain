@@ -1,3 +1,5 @@
+/* estilos gerais */
+
 body {
     background-color: #cdcdc4;
 }
@@ -43,4 +45,50 @@ a {
 
 a:hover {
     color: rgb(0, 119, 255);
+}
+
+/* estilos para telas pequenas */
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        width: 85%;
+    }
+
+    p {
+        font-size: 0.8em;
+        width: 85%;
+    }
+
+    .guia {
+        display: none;
+    }
+}
+
+/* estilos para telas médias e grandes */
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        width: 60%;
+    }
+
+    p {
+        font-size: 0.9em;
+        width: 60%;
+    }
+
+    .guia {
+        display: block;
+    }
 }
